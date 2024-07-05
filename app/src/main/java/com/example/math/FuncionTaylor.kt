@@ -1,6 +1,6 @@
 package com.example.math
 
-abstract class FuncionTaylor {
+abstract class FuncionMaclaurin {
     abstract fun calculateTerm(x: Double, n: Int): Double
     abstract fun getInterval(): String
 

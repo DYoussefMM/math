@@ -1,6 +1,6 @@
 package com.example.math
 
-class FuncionExponencialDeCoseno : FuncionTaylor() {
+class FuncionExponencialDeCoseno : FuncionMaclaurin() {
     override fun calculateTerm(x: Double, n: Int): Double {
         return pow(x, n) / factorial(n) * exp(cos(x))
     }

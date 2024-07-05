@@ -1,6 +1,6 @@
 package com.example.math
 
-class FuncionCosenoHiperbolico : FuncionTaylor() {
+class FuncionCosenoHiperbolico : FuncionMaclaurin() {
     override fun calculateTerm(x: Double, n: Int): Double {
         return pow(x, 2 * n) / factorial(2 * n)
     }

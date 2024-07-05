@@ -1,6 +1,6 @@
 package com.example.math
 
-class FuncionArcocoseno : FuncionTaylor() {
+class FuncionArcocoseno : FuncionMaclaurin() {
     override fun calculateTerm(x: Double, n: Int): Double {
         return if (n % 2 == 0) {
             pow(1.0 - x, n / 2) * doubleFactorial(2 * n - 1) / (pow(4.0, n) * (n + 1).toDouble())

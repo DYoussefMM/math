@@ -1,6 +1,6 @@
 package com.example.math
 
-class FuncionSeno : FuncionTaylor() {
+class FuncionSeno : FuncionMaclaurin() {
     override fun calculateTerm(x: Double, n: Int): Double {
         return if (n % 2 == 0) {
             0.0 // Términos pares son 0 en la serie de Maclaurin para sin(x)

@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
         val x = xStr.toDouble()
         val n = nStr.toInt()
 
-        val funcion: FuncionTaylor = when (spinnerFunciones.selectedItem.toString()) {
+        val funcion: FuncionMaclaurin = when (spinnerFunciones.selectedItem.toString()) {
             "e^x" -> FuncionExponencial()
             "sin(x)" -> FuncionSeno()
             "cos(x)" -> FuncionCoseno()

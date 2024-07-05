@@ -1,6 +1,6 @@
 package com.example.math
 
-class FuncionCotangenteHiperbolicaInversa : FuncionTaylor() {
+class FuncionCotangenteHiperbolicaInversa : FuncionMaclaurin() {
     override fun calculateTerm(x: Double, n: Int): Double {
         return if (n % 2 == 0) 0.0 else 1.0 / (pow(x, n) * n.toDouble())
     }

@@ -1,6 +1,6 @@
 package com.example.math
 
-class FuncionLogaritmoNatural : FuncionTaylor() {
+class FuncionLogaritmoNatural : FuncionMaclaurin() {
     override fun calculateTerm(x: Double, n: Int): Double {
         return if (n == 0) {
             0.0 // El término n=0 es 0 en la serie de Maclaurin para ln(1+x)
