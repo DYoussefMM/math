@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="funciones_array">
+        <item>e^x</item>
+        <item>sin(x)</item>
+        <item>cos(x)</item>
+        <item>tan^-1(x)</item>
+        <item>sin^-1(x)</item>
+        <item>cos^-1(x)</item>
+        <item>ln(1 + x)</item>
+        <item>sinh(x)</item>
+        <item>cosh(x)</item>
+        <item>tanh^-1(x)</item>
+        <item>coth^-1(x)</item>
+        <item>e^sin(x)</item>
+        <item>e^cos(x)</item>
+    </string-array>
+</resources>
